@@ -40,3 +40,4 @@ float Exponential_easeInOut(in float begin, in float change, in float duration, 
     return change / 2.0 * (-pow(2.0, -10.0 * (time - 1.0)) + 2.0) + begin;
 }
 #endif
+#add
